@@ -41,6 +41,7 @@ function MessageCard({message, onMessageDelete}:MessageCardProps ){
         title:responce.data.message
     })
      onMessageDelete(message._id)
+     
     }
 
 
