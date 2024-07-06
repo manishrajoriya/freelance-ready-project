@@ -1,7 +1,7 @@
 import connectDB from "@/lib/dbConnect";
 import UserModel from "@/models/user";
 import { Message } from "@/models/user";
-import { date } from "zod";
+
 
 export async function POST(request:Request){
     await connectDB()
